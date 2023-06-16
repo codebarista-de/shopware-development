@@ -7,6 +7,10 @@ Install [Symfony CLI](https://symfony.com/download).
 Run
 ```
 docker-compose up -d
+```
+Outside of the container: 
+```
+composer install
 ./bin/console system:install --basic-setup
 ```
 
