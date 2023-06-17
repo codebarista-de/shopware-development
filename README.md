@@ -18,6 +18,8 @@ docker-compose down
 
 ## Initial setup
 
+See [Shopware Documentation](https://developer.shopware.com/docs/guides/installation/template).
+
 Install PHP 8 and dependencies
 ```
 sudo add-apt-repository ppa:ondrej/php
