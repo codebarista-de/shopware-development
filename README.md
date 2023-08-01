@@ -55,3 +55,45 @@ bin/console plugin:install --activate FroshPlatformAdminer FroshDevelopmentHelpe
 bin/console plugin:install --activate FroshPlatformAdminer
 ```
 
+### Enable debugging
+
+Install XDebug
+```
+sudo apt install php-xdebug
+```
+
+Add the following lines to `/etc/php/8.1/fpm/conf.d/20-xdebug.ini`:
+```
+xdebug.mode = debug
+xdebug.start_with_request = yes
+xdebug.discover_client_host = false
+xdebug.client_port = 9003
+```
+
+Install the [VSCode PHP Debug extension](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)
+and create a launch configuration in `.vscode/launch.json` with the following content:
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Listen for Xdebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9003
+        }
+    ]
+}
+```
+
+Start (or restart) the shopware server.
+
+Open the "Run and Debug" view in VS Code (`Ctrl+Shift+D`).
+
+Start debugging (`F5`).
+
+Set a breakpoint in the `handle` function of `vendor/shopware/core/HttpKernel.php`.
+
+Open `http://localhost:8000`.
+
+If everything is setup correctly the breakpoint should be hit.
