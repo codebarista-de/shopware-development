@@ -97,3 +97,27 @@ Set a breakpoint in the `handle` function of `vendor/shopware/core/HttpKernel.ph
 Open `http://localhost:8000`.
 
 If everything is setup correctly the breakpoint should be hit.
+
+Add this line to `/etc/php/8.1/fpm/conf.d/20-xdebug.ini` to supress the "Could not connect" warning when not debugging:
+```
+xdebug.log_level = 0
+```
+
+### Update shopware
+
+Run:
+```
+composer update
+```
+Check and commit the new `composer.lock` file (do not push yet)
+
+Run:
+```
+composer recipes:update
+```
+
+Add the new files and amend the previous commit.
+
+Start or restart the server and make sure that everything works.
+
+Push the commit.
