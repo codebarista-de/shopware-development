@@ -16,6 +16,10 @@ symfony server:stop
 docker-compose down
 ```
 
+### Mail Catcher
+
+Open http://localhost:1080/ to show mails sent by shopware.
+
 ## Initial setup
 
 See [Shopware Documentation](https://developer.shopware.com/docs/guides/installation/template).
@@ -42,4 +46,12 @@ composer install
 ./bin/console system:install --basic-setup
 ```
 
+Open `http://localhost:8000/admin`, login with username `admin` and password `shopware` and finish the initial setup.
+
+Then run
+```
+bin/console plugin:refresh
+bin/console plugin:install --activate FroshPlatformAdminer FroshDevelopmentHelper
+bin/console plugin:install --activate FroshPlatformAdminer
+```
 
