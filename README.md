@@ -1,16 +1,19 @@
 # Shopware 6 dev template
 
-## Start
+## Start/Stop
 
-Run
+Run the `start_server.sh` script.
+Press `CTRL+C` to stop the webserver and all docker services.
+
+### Manually
+
+To start the server and all required services run:
 ```
 docker-compose up -d
 symfony server:start -d
 ```
 
-## Stop
-
-Run
+To stop everything run:
 ```
 symfony server:stop
 docker-compose down
