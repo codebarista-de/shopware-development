@@ -108,7 +108,12 @@ xdebug.log_level = 0
 
 ### Update shopware
 
-Run:
+Start the server and all required servicers and run:
+```
+bin/console system:update:prepare
+```
+
+Then execute:
 ```
 composer update
 ```
@@ -121,6 +126,11 @@ composer recipes:update
 
 Add the new files and amend the previous commit.
 
-Start or restart the server and make sure that everything works.
+Run:
+```
+bin/console system:update:finish
+```
+
+Make sure that everything works.
 
 Push the commit.
