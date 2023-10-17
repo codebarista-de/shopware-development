@@ -36,6 +36,7 @@ custom/*
 /auth.json
 /install.lock
 public/asset-manifest.json
+files/asset-manifest.json
 ###< shopware/core ###
 
 ###> phpunit/phpunit ###
