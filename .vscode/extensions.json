@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "sanderronde.phpstan-vscode",
+        "dbaeumer.vscode-eslint",
+        "xdebug.php-debug",
+        "bmewburn.vscode-intelephense-client",
+        "esbenp.prettier-vscode",
+        "mblode.twig-language",
+        "vue.vscode-typescript-vue-plugin",
+        "vue.volar"
+    ]
+}
