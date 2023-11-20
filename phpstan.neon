@@ -1,0 +1,6 @@
+parameters:
+    level: 9
+    paths:
+        - custom/plugins/
+    excludePaths:
+        - custom/plugins/Swag*

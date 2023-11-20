@@ -58,6 +58,13 @@ bin/console plugin:install --activate FroshPlatformAdminer FroshDevelopmentHelpe
 bin/console plugin:install --activate FroshPlatformAdminer
 ```
 
+## Run static analyzer
+
+Will run static analysis on all PHP files in `custom/plugins/` except those of shopware plugins:
+```
+vendor/bin/phpstan analyze
+```
+
 ### Enable debugging
 
 Install XDebug
