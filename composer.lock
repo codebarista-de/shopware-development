@@ -2206,11 +2206,17 @@
         },
         {
             "name": "frosh/adminer-platform",
-            "version": "1.0.0",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfShopware/FroshPlatformAdminer.git",
+                "reference": "51def5ec37bc6fa47549909ae21447c16d922f99"
+            },
             "dist": {
-                "type": "path",
-                "url": "custom/plugins/FroshPlatformAdminer",
-                "reference": "8c5152baf79cd978644c53e1623996efec5b5bac"
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfShopware/FroshPlatformAdminer/zipball/51def5ec37bc6fa47549909ae21447c16d922f99",
+                "reference": "51def5ec37bc6fa47549909ae21447c16d922f99",
+                "shasum": ""
             },
             "require": {
                 "shopware/administration": "~6.5",
@@ -2242,6 +2248,7 @@
                     "Frosh\\Adminer\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2257,18 +2264,25 @@
                 "frosh",
                 "shopware"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/FriendsOfShopware/FroshPlatformAdminer/issues",
+                "source": "https://github.com/FriendsOfShopware/FroshPlatformAdminer/tree/1.0.1"
+            },
+            "time": "2023-10-24T09:09:03+00:00"
         },
         {
             "name": "frosh/development-helper",
-            "version": "1.0.1",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfShopware/FroshDevelopmentHelper.git",
+                "reference": "6fa0955a9bf41e30b968fad1f20ceed7059f2965"
+            },
             "dist": {
-                "type": "path",
-                "url": "custom/plugins/FroshDevelopmentHelper",
-                "reference": "331782e4548ceb2058d5cb35132635cd3440e4d0"
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfShopware/FroshDevelopmentHelper/zipball/6fa0955a9bf41e30b968fad1f20ceed7059f2965",
+                "reference": "6fa0955a9bf41e30b968fad1f20ceed7059f2965",
+                "shasum": ""
             },
             "require": {
                 "friendsofphp/php-cs-fixer": "*",
@@ -2302,6 +2316,7 @@
                     "Frosh\\DevelopmentHelper\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2312,10 +2327,11 @@
                 }
             ],
             "description": "Development Helper",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/FriendsOfShopware/FroshDevelopmentHelper/issues",
+                "source": "https://github.com/FriendsOfShopware/FroshDevelopmentHelper/tree/1.0.2"
+            },
+            "time": "2023-09-29T11:10:14+00:00"
         },
         {
             "name": "google/auth",
