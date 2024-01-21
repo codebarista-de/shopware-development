@@ -64,7 +64,7 @@
             "repo": "github.com/shopware/recipes",
             "branch": "main",
             "version": "6.4",
-            "ref": "44ff50e9488730e4c2fe2d0e1febc5abfc526f22"
+            "ref": "8918e98afb02fb70cf8f63df9162b00d8bcd7f10"
         },
         "files": [
             "bin/build-administration.sh",
@@ -117,7 +117,7 @@
             "repo": "github.com/shopware/recipes",
             "branch": "main",
             "version": "6.4",
-            "ref": "8734fedf5260ad26d6e034ebea62716abdfbdafd"
+            "ref": "e205f77b7355f066a15f319a8ca6e2cc986e5540"
         },
         "files": [
             "bin/build-storefront.sh",
@@ -182,12 +182,12 @@
         ]
     },
     "symfony/mailer": {
-        "version": "6.2",
+        "version": "6.4",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
             "version": "4.3",
-            "ref": "2bf89438209656b85b9a49238c4467bff1b1f939"
+            "ref": "df66ee1f226c46f01e85c29c2f7acce0596ba35a"
         },
         "files": [
             "config/packages/mailer.yaml"
