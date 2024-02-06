@@ -141,3 +141,13 @@ bin/console system:update:finish
 Make sure that everything works.
 
 Push the commit.
+
+#### Updating Dev Plugins
+
+FroshDevelopmentHelper and FroshPlatformAdminer are installed through composer.
+New versions are automatically installed through the update procedure above.
+The final update step has to be done with the console:
+
+```sh
+bin/console plugin:update FroshDevelopmentHelper FroshPlatformAdminer
+```
