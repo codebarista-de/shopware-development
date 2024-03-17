@@ -1,5 +1,9 @@
 # Shopware 6 dev template
 
+> [!NOTE]
+> This is a template for Shopware 6.6-RC.
+> Once Shopware 6.6 is stable change `minimum-stability` in `composer.json` to `stable`.
+
 ## Start/Stop
 
 Run the `start_server.sh` script.
@@ -32,10 +36,10 @@ Install [Docker and Docker Compose](https://docs.docker.com/compose/install/linu
 Install PHP 8 and dependencies
 ```
 sudo add-apt-repository ppa:ondrej/php
-sudo apt-get install -y php8.1-fpm php8.1-mysql php8.1-curl php8.1-gd php8.1-xml php8.1-zip php8.1-opcache php8.1-mbstring php8.1-intl php8.1-cli composer
+sudo apt-get install -y php8.3-fpm php8.3-mysql php8.3-curl php8.3-gd php8.3-xml php8.3-zip php8.3-opcache php8.3-mbstring php8.3-intl php8.3-cli composer
 ```
 
-In `/etc/php/8.1/fpm/php.ini` set `memory_limit = -1`.
+In `/etc/php/8.3/fpm/php.ini` set `memory_limit = -1`.
 
 Install [Symfony CLI](https://symfony.com/download).
 
@@ -72,7 +76,7 @@ Install XDebug
 sudo apt install php-xdebug
 ```
 
-Add the following lines to `/etc/php/8.1/fpm/conf.d/20-xdebug.ini`:
+Add the following lines to `/etc/php/8.3/fpm/conf.d/20-xdebug.ini`:
 ```
 xdebug.mode = debug
 xdebug.start_with_request = yes
@@ -108,7 +112,7 @@ Open `http://localhost:8000`.
 
 If everything is setup correctly the breakpoint should be hit.
 
-Add this line to `/etc/php/8.1/fpm/conf.d/20-xdebug.ini` to supress the "Could not connect" warning when not debugging:
+Add this line to `/etc/php/8.3/fpm/conf.d/20-xdebug.ini` to supress the "Could not connect" warning when not debugging:
 ```
 xdebug.log_level = 0
 ```

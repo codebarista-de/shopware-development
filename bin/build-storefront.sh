@@ -6,6 +6,9 @@ set -euo pipefail
 
 export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 export PROJECT_ROOT="${PROJECT_ROOT:-"$(dirname "$CWD")"}"
+export NPM_CONFIG_FUND=false
+export NPM_CONFIG_AUDIT=false
+export NPM_CONFIG_UPDATE_NOTIFIER=false
 
 if [[ -e "${PROJECT_ROOT}/vendor/shopware/platform" ]]; then
     STOREFRONT_ROOT="${STOREFRONT_ROOT:-"${PROJECT_ROOT}/vendor/shopware/platform/src/Storefront"}"
@@ -47,7 +50,7 @@ if [[ $(command -v jq) ]]; then
         if [[ -f "$path/package.json" && ! -d "$path/node_modules" && $name != "storefront" ]]; then
             echo "=> Installing npm dependencies for ${name}"
 
-            npm install --prefix "$path" --no-audit --prefer-offline
+            npm install --prefix "$path" --prefer-offline
         fi
     done
     cd "$OLDPWD" || exit
@@ -55,8 +58,12 @@ else
     echo "Cannot check extensions for required npm installations as jq is not installed"
 fi
 
-npm --prefix "${STOREFRONT_ROOT}"/Resources/app/storefront install --no-audit --prefer-offline
+npm --prefix "${STOREFRONT_ROOT}"/Resources/app/storefront install --prefer-offline --production
 node "${STOREFRONT_ROOT}"/Resources/app/storefront/copy-to-vendor.js
 npm --prefix "${STOREFRONT_ROOT}"/Resources/app/storefront run production
 [[ ${SHOPWARE_SKIP_ASSET_COPY:-""} ]] ||"${BIN_TOOL}" assets:install
-[[ ${SHOPWARE_SKIP_THEME_COMPILE:-""} ]] || "${BIN_TOOL}" theme:compile
+[[ ${SHOPWARE_SKIP_THEME_COMPILE:-""} ]] || "${BIN_TOOL}" theme:compile --active-only
+
+if ! [ "${1:-default}" = "--keep-cache" ]; then
+    "${BIN_TOOL}" cache:clear
+fi
