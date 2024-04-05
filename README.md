@@ -1,9 +1,5 @@
 # Shopware 6 dev template
 
-> [!NOTE]
-> This is a template for Shopware 6.6-RC.
-> Once Shopware 6.6 is stable change `minimum-stability` in `composer.json` to `stable`.
-
 ## Start/Stop
 
 Run the `start_server.sh` script.
