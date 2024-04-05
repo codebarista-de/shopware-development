@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "31a20aff2c1d62d0a438d79fe9e18859",
+    "content-hash": "c48d24d24cfbd64c5c4aba33f708bbef",
     "packages": [
         {
             "name": "brick/math",
@@ -1881,21 +1881,21 @@
         },
         {
             "name": "frosh/adminer-platform",
-            "version": "1.0.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfShopware/FroshPlatformAdminer.git",
-                "reference": "51def5ec37bc6fa47549909ae21447c16d922f99"
+                "reference": "561f5ccc3a81490602aa25f7ba5f2ce69bea965d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfShopware/FroshPlatformAdminer/zipball/51def5ec37bc6fa47549909ae21447c16d922f99",
-                "reference": "51def5ec37bc6fa47549909ae21447c16d922f99",
+                "url": "https://api.github.com/repos/FriendsOfShopware/FroshPlatformAdminer/zipball/561f5ccc3a81490602aa25f7ba5f2ce69bea965d",
+                "reference": "561f5ccc3a81490602aa25f7ba5f2ce69bea965d",
                 "shasum": ""
             },
             "require": {
-                "shopware/administration": "~6.5",
-                "shopware/core": "~6.5"
+                "shopware/administration": "~6.6",
+                "shopware/core": "~6.6"
             },
             "type": "shopware-platform-plugin",
             "extra": {
@@ -1941,9 +1941,9 @@
             ],
             "support": {
                 "issues": "https://github.com/FriendsOfShopware/FroshPlatformAdminer/issues",
-                "source": "https://github.com/FriendsOfShopware/FroshPlatformAdminer/tree/1.0.1"
+                "source": "https://github.com/FriendsOfShopware/FroshPlatformAdminer/tree/2.0.0"
             },
-            "time": "2023-10-24T09:09:03+00:00"
+            "time": "2024-01-22T21:56:13+00:00"
         },
         {
             "name": "frosh/development-helper",

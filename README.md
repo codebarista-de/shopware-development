@@ -53,6 +53,10 @@ composer install
 ./bin/console system:install --basic-setup
 ```
 
+Start the server:
+```
+symfony server:start -d
+```
 Open `http://localhost:8000/admin`, login with username `admin` and password `shopware` and finish the initial setup.
 
 Then run
@@ -82,6 +86,7 @@ xdebug.mode = debug
 xdebug.start_with_request = yes
 xdebug.discover_client_host = false
 xdebug.client_port = 9003
+xdebug.log_level = 0
 ```
 
 Install the [VSCode PHP Debug extension](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)
