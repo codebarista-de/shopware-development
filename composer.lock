@@ -467,16 +467,16 @@
         },
         {
             "name": "composer/class-map-generator",
-            "version": "1.3.2",
+            "version": "1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/class-map-generator.git",
-                "reference": "acd227952154850d0bb7d65caa4f9edf9cd806a7"
+                "reference": "61804f9973685ec7bead0fb7fe022825e3cd418e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/acd227952154850d0bb7d65caa4f9edf9cd806a7",
-                "reference": "acd227952154850d0bb7d65caa4f9edf9cd806a7",
+                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/61804f9973685ec7bead0fb7fe022825e3cd418e",
+                "reference": "61804f9973685ec7bead0fb7fe022825e3cd418e",
                 "shasum": ""
             },
             "require": {
@@ -520,7 +520,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/class-map-generator/issues",
-                "source": "https://github.com/composer/class-map-generator/tree/1.3.2"
+                "source": "https://github.com/composer/class-map-generator/tree/1.3.3"
             },
             "funding": [
                 {
@@ -536,28 +536,28 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-05-31T19:45:56+00:00"
+            "time": "2024-06-10T11:53:54+00:00"
         },
         {
             "name": "composer/composer",
-            "version": "2.7.6",
+            "version": "2.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "fabd995783b633829fd4280e272284b39b6ae702"
+                "reference": "291942978f39435cf904d33739f98d7d4eca7b23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/fabd995783b633829fd4280e272284b39b6ae702",
-                "reference": "fabd995783b633829fd4280e272284b39b6ae702",
+                "url": "https://api.github.com/repos/composer/composer/zipball/291942978f39435cf904d33739f98d7d4eca7b23",
+                "reference": "291942978f39435cf904d33739f98d7d4eca7b23",
                 "shasum": ""
             },
             "require": {
                 "composer/ca-bundle": "^1.0",
-                "composer/class-map-generator": "^1.0",
+                "composer/class-map-generator": "^1.3.3",
                 "composer/metadata-minifier": "^1.0",
                 "composer/pcre": "^2.1 || ^3.1",
-                "composer/semver": "^3.2.5",
+                "composer/semver": "^3.3",
                 "composer/spdx-licenses": "^1.5.7",
                 "composer/xdebug-handler": "^2.0.2 || ^3.0.3",
                 "justinrainbow/json-schema": "^5.2.11",
@@ -576,11 +576,11 @@
                 "symfony/process": "^5.4 || ^6.0 || ^7"
             },
             "require-dev": {
-                "phpstan/phpstan": "^1.9.3",
-                "phpstan/phpstan-deprecation-rules": "^1",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "phpstan/phpstan-strict-rules": "^1",
-                "phpstan/phpstan-symfony": "^1.2.10",
+                "phpstan/phpstan": "^1.11.0",
+                "phpstan/phpstan-deprecation-rules": "^1.2.0",
+                "phpstan/phpstan-phpunit": "^1.4.0",
+                "phpstan/phpstan-strict-rules": "^1.6.0",
+                "phpstan/phpstan-symfony": "^1.4.0",
                 "symfony/phpunit-bridge": "^6.4.1 || ^7.0.1"
             },
             "suggest": {
@@ -634,7 +634,7 @@
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
                 "security": "https://github.com/composer/composer/security/policy",
-                "source": "https://github.com/composer/composer/tree/2.7.6"
+                "source": "https://github.com/composer/composer/tree/2.7.7"
             },
             "funding": [
                 {
@@ -650,7 +650,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-05-04T21:03:15+00:00"
+            "time": "2024-06-10T20:11:12+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -2579,16 +2579,16 @@
         },
         {
             "name": "google/cloud-core",
-            "version": "v1.58.2",
+            "version": "v1.59.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-core.git",
-                "reference": "56df58d70cca3c429e2cfd32270e42596f6c002f"
+                "reference": "56d31be2663780a7ed0736bee60d01f047bf15c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/56df58d70cca3c429e2cfd32270e42596f6c002f",
-                "reference": "56df58d70cca3c429e2cfd32270e42596f6c002f",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/56d31be2663780a7ed0736bee60d01f047bf15c0",
+                "reference": "56d31be2663780a7ed0736bee60d01f047bf15c0",
                 "shasum": ""
             },
             "require": {
@@ -2639,9 +2639,9 @@
             ],
             "description": "Google Cloud PHP shared dependency, providing functionality useful to all components.",
             "support": {
-                "source": "https://github.com/googleapis/google-cloud-php-core/tree/v1.58.2"
+                "source": "https://github.com/googleapis/google-cloud-php-core/tree/v1.59.0"
             },
-            "time": "2024-06-01T03:14:01+00:00"
+            "time": "2024-06-07T22:33:41+00:00"
         },
         {
             "name": "google/cloud-storage",
@@ -5255,16 +5255,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.12.3",
+            "version": "v0.12.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "b6b6cce7d3ee8fbf31843edce5e8f5a72eff4a73"
+                "reference": "2fd717afa05341b4f8152547f142cd2f130f6818"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/b6b6cce7d3ee8fbf31843edce5e8f5a72eff4a73",
-                "reference": "b6b6cce7d3ee8fbf31843edce5e8f5a72eff4a73",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/2fd717afa05341b4f8152547f142cd2f130f6818",
+                "reference": "2fd717afa05341b4f8152547f142cd2f130f6818",
                 "shasum": ""
             },
             "require": {
@@ -5328,9 +5328,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.12.3"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.12.4"
             },
-            "time": "2024-04-02T15:57:53+00:00"
+            "time": "2024-06-10T01:18:23+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -6010,16 +6010,16 @@
         },
         {
             "name": "react/stream",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/stream.git",
-                "reference": "6fbc9672905c7d5a885f2da2fc696f65840f4a66"
+                "reference": "1e5b0acb8fe55143b5b426817155190eb6f5b18d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/stream/zipball/6fbc9672905c7d5a885f2da2fc696f65840f4a66",
-                "reference": "6fbc9672905c7d5a885f2da2fc696f65840f4a66",
+                "url": "https://api.github.com/repos/reactphp/stream/zipball/1e5b0acb8fe55143b5b426817155190eb6f5b18d",
+                "reference": "1e5b0acb8fe55143b5b426817155190eb6f5b18d",
                 "shasum": ""
             },
             "require": {
@@ -6029,7 +6029,7 @@
             },
             "require-dev": {
                 "clue/stream-filter": "~1.2",
-                "phpunit/phpunit": "^9.5 || ^5.7 || ^4.8.35"
+                "phpunit/phpunit": "^9.6 || ^5.7 || ^4.8.36"
             },
             "type": "library",
             "autoload": {
@@ -6076,7 +6076,7 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/stream/issues",
-                "source": "https://github.com/reactphp/stream/tree/v1.3.0"
+                "source": "https://github.com/reactphp/stream/tree/v1.4.0"
             },
             "funding": [
                 {
@@ -6084,7 +6084,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-06-16T10:52:11+00:00"
+            "time": "2024-06-11T12:45:25+00:00"
         },
         {
             "name": "rize/uri-template",
@@ -6607,22 +6607,22 @@
         },
         {
             "name": "shopware/administration",
-            "version": "v6.5.8.10",
+            "version": "v6.5.8.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "e399ebc9f3871827ab945c6ed3d81449c7da3e34"
+                "reference": "3aa7c9c49269900f4de80951ffc297235e8f74fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/e399ebc9f3871827ab945c6ed3d81449c7da3e34",
-                "reference": "e399ebc9f3871827ab945c6ed3d81449c7da3e34",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/3aa7c9c49269900f4de80951ffc297235e8f74fb",
+                "reference": "3aa7c9c49269900f4de80951ffc297235e8f74fb",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "^3.7",
                 "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
-                "shopware/core": "v6.5.8.10",
+                "shopware/core": "v6.5.8.11",
                 "symfony/framework-bundle": "~6.4.0",
                 "symfony/http-foundation": "~6.4.0",
                 "symfony/mime": "~6.4.0",
@@ -6650,10 +6650,10 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://issues.shopware.com",
-                "source": "https://github.com/shopware/administration/tree/v6.5.8.10",
+                "source": "https://github.com/shopware/administration/tree/v6.5.8.11",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2024-05-13T11:53:29+00:00"
+            "time": "2024-06-10T13:41:27+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -6699,16 +6699,16 @@
         },
         {
             "name": "shopware/core",
-            "version": "v6.5.8.10",
+            "version": "v6.5.8.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "4cb45483c7393c4647baa542fe97f1d8e146b1fe"
+                "reference": "1fe573cbc549794f2d13bc7d6d8532d7dd545482"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/4cb45483c7393c4647baa542fe97f1d8e146b1fe",
-                "reference": "4cb45483c7393c4647baa542fe97f1d8e146b1fe",
+                "url": "https://api.github.com/repos/shopware/core/zipball/1fe573cbc549794f2d13bc7d6d8532d7dd545482",
+                "reference": "1fe573cbc549794f2d13bc7d6d8532d7dd545482",
                 "shasum": ""
             },
             "require": {
@@ -6758,7 +6758,7 @@
                 "psr/log": "^3.0.0",
                 "ramsey/uuid": "^4.7",
                 "setasign/fpdi": "^2.3.7",
-                "shopware/conflicts": "*",
+                "shopware/conflicts": ">= 0.1.7",
                 "squirrelphp/twig-php-syntax": "^1.7.0",
                 "symfony/asset": "~6.4.0",
                 "symfony/cache": "~6.4.4",
@@ -6867,23 +6867,23 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://issues.shopware.com",
-                "source": "https://github.com/shopware/core/tree/v6.5.8.10",
+                "source": "https://github.com/shopware/core/tree/v6.5.8.11",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2024-05-13T07:15:59+00:00"
+            "time": "2024-06-10T09:55:06+00:00"
         },
         {
             "name": "shopware/elasticsearch",
-            "version": "v6.5.8.10",
+            "version": "v6.5.8.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/elasticsearch.git",
-                "reference": "98845c61d0e3e98dd69f591684990c3742fff521"
+                "reference": "27f6b2a74117eb601c7f0ebdd59dde0b25141a27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/elasticsearch/zipball/98845c61d0e3e98dd69f591684990c3742fff521",
-                "reference": "98845c61d0e3e98dd69f591684990c3742fff521",
+                "url": "https://api.github.com/repos/shopware/elasticsearch/zipball/27f6b2a74117eb601c7f0ebdd59dde0b25141a27",
+                "reference": "27f6b2a74117eb601c7f0ebdd59dde0b25141a27",
                 "shasum": ""
             },
             "require": {
@@ -6892,7 +6892,7 @@
                 "monolog/monolog": "^3.3.1",
                 "opensearch-project/opensearch-php": "^2.0",
                 "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
-                "shopware/core": "v6.5.8.10",
+                "shopware/core": "v6.5.8.11",
                 "shyim/opensearch-php-dsl": "^1.0.1",
                 "symfony/http-foundation": "~6.4.0",
                 "symfony/messenger": "~6.4.0"
@@ -6925,23 +6925,23 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://issues.shopware.com",
-                "source": "https://github.com/shopware/elasticsearch/tree/v6.5.8.10",
+                "source": "https://github.com/shopware/elasticsearch/tree/v6.5.8.11",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2024-05-13T11:53:29+00:00"
+            "time": "2024-06-10T13:41:27+00:00"
         },
         {
             "name": "shopware/storefront",
-            "version": "v6.5.8.10",
+            "version": "v6.5.8.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "574359946a83f97551eba605e11a1ffa42541a41"
+                "reference": "bbb98c91d03343d1a58627f668653464a26346a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/574359946a83f97551eba605e11a1ffa42541a41",
-                "reference": "574359946a83f97551eba605e11a1ffa42541a41",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/bbb98c91d03343d1a58627f668653464a26346a2",
+                "reference": "bbb98c91d03343d1a58627f668653464a26346a2",
                 "shasum": ""
             },
             "require": {
@@ -6951,7 +6951,7 @@
                 "padaliyajay/php-autoprefixer": "^1.4",
                 "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
                 "scssphp/scssphp": "^v1.11.0",
-                "shopware/core": "v6.5.8.10",
+                "shopware/core": "v6.5.8.11",
                 "symfony/cache": "~6.4.4",
                 "symfony/cache-contracts": "~3.1.0",
                 "symfony/config": "~6.4.0",
@@ -7000,10 +7000,10 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://issues.shopware.com",
-                "source": "https://github.com/shopware/storefront/tree/v6.5.8.10",
+                "source": "https://github.com/shopware/storefront/tree/v6.5.8.11",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2024-05-13T11:53:29+00:00"
+            "time": "2024-06-10T13:41:27+00:00"
         },
         {
             "name": "shyim/opensearch-php-dsl",
@@ -12479,16 +12479,16 @@
         },
         {
             "name": "zircote/swagger-php",
-            "version": "4.9.2",
+            "version": "4.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zircote/swagger-php.git",
-                "reference": "256d42cb07ba1c2206d66bc7516ee3d3e3e9f0b2"
+                "reference": "2d983ce67b9eb7e18403ae7bc5e765f8ce7b8d56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/256d42cb07ba1c2206d66bc7516ee3d3e3e9f0b2",
-                "reference": "256d42cb07ba1c2206d66bc7516ee3d3e3e9f0b2",
+                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/2d983ce67b9eb7e18403ae7bc5e765f8ce7b8d56",
+                "reference": "2d983ce67b9eb7e18403ae7bc5e765f8ce7b8d56",
                 "shasum": ""
             },
             "require": {
@@ -12554,9 +12554,9 @@
             ],
             "support": {
                 "issues": "https://github.com/zircote/swagger-php/issues",
-                "source": "https://github.com/zircote/swagger-php/tree/4.9.2"
+                "source": "https://github.com/zircote/swagger-php/tree/4.10.0"
             },
-            "time": "2024-05-02T21:36:00+00:00"
+            "time": "2024-06-06T22:42:02+00:00"
         }
     ],
     "packages-dev": [
@@ -13065,16 +13065,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.11.3",
+            "version": "1.11.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e64220a05c1209fc856d58e789c3b7a32c0bb9a5"
+                "reference": "9100a76ce8015b9aa7125b9171ae3a76887b6c82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e64220a05c1209fc856d58e789c3b7a32c0bb9a5",
-                "reference": "e64220a05c1209fc856d58e789c3b7a32c0bb9a5",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9100a76ce8015b9aa7125b9171ae3a76887b6c82",
+                "reference": "9100a76ce8015b9aa7125b9171ae3a76887b6c82",
                 "shasum": ""
             },
             "require": {
@@ -13119,7 +13119,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-31T13:53:37+00:00"
+            "time": "2024-06-06T12:19:22+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
