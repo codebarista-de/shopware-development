@@ -49,6 +49,12 @@ composer install
 ./bin/console system:install --basic-setup
 ```
 
+Run:
+```
+docker compose down
+./start-server.sh
+```
+
 Open `http://localhost:8000/admin`, login with username `admin` and password `shopware` and finish the initial setup.
 
 Then run

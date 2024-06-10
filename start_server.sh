@@ -1,7 +1,11 @@
 #!/bin/bash
 
 # Start docker-compose in the background
-docker-compose up &
+if ! command -v docker-compose &> /dev/null; then
+    docker compose up &
+else
+    docker-compose up &
+fi
 
 # Save the PID of the docker-compose process
 DOCKER_PID=$!
