@@ -19,7 +19,7 @@ services:
 ###< shopware/core ###
 
 ###> shopware/elasticsearch ###
-  opensearch:
-    ports:
-      - "9200:9200"
+#  opensearch:
+#    ports:
+#      - "9200:9200"
 ###< shopware/elasticsearch ###
