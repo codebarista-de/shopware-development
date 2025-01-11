@@ -32,4 +32,4 @@ public/asset-manifest.json
 /.php-cs-fixer.cache
 ###< friendsofphp/php-cs-fixer ###
 
-custom/plugins
+custom/

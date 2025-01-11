@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Start docker-compose in the background
-docker-compose up &
+# Important! Old docker-compose does not work anymore.
+docker compose up &
 
 # Save the PID of the docker-compose process
 DOCKER_PID=$!
