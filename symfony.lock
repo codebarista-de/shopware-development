@@ -32,6 +32,15 @@
             "config/packages/nyholm_psr7.yaml"
         ]
     },
+    "pentatrion/vite-bundle": {
+        "version": "7.1",
+        "recipe": {
+            "repo": "github.com/shopware/recipes",
+            "branch": "main",
+            "version": "6.5",
+            "ref": "8cc0e41387cb37cb65cc9a1ce8bac7eed899687a"
+        }
+    },
     "phpstan/phpstan": {
         "version": "1.10",
         "recipe": {
@@ -114,7 +123,7 @@
             "repo": "github.com/shopware/recipes",
             "branch": "main",
             "version": "6.6",
-            "ref": "dd20533e926c3367087033bfa712f6f70cb79b19"
+            "ref": "ce534fb928b5983ff86b6ff5975dc90b309f353f"
         },
         "files": [
             "bin/build-storefront.sh",
