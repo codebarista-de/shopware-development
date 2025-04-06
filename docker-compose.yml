@@ -3,7 +3,7 @@ version: '3'
 services:
 ###> shopware/core ###
   database:
-    image: mysql:${MYSQL_VERSION:-8}-oracle
+    image: mysql:8.3.0-oracle
     environment:
       MYSQL_DATABASE: ${MYSQL_DATABASE:-shopware}
       # You should definitely change the password in production
