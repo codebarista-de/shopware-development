@@ -17,4 +17,5 @@ return [
     Shopware\Storefront\Storefront::class => ['all' => true],
     Symfony\Bundle\WebProfilerBundle\WebProfilerBundle::class => ['dev' => true, 'test' => true],
     Pentatrion\ViteBundle\PentatrionViteBundle::class => ['all' => true],
+    Shopware\Core\Service\Service::class => ['all' => true],
 ];
