@@ -21,3 +21,4 @@ files/asset-manifest.json
 ###< shopware/core ###
 
 docker/
+custom/
