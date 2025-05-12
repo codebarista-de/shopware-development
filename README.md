@@ -156,3 +156,17 @@ The final update step has to be done with the console:
 ```sh
 bin/console plugin:update FroshDevelopmentHelper FroshPlatformAdminer
 ```
+
+### Compile JS
+
+Shopware 6.4 requires NodeJS 16 to compile the admin and storefront javascript.
+
+Install [Node Version Manager](https://github.com/nvm-sh/nvm) and execute:
+```sh
+nvm install 16
+```
+To compile execute:
+```sh
+nvm use 16
+bin/build-js.sh
+```

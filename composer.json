@@ -3,6 +3,8 @@
     "type": "project",
     "require": {
         "composer-runtime-api": "^2.0",
+        "frosh/adminer-platform": "^0.3.4",
+        "frosh/development-helper": "^0.3.7",
         "shopware/administration": "~v6.4.15",
         "shopware/core": "~v6.4.15",
         "shopware/elasticsearch": "~v6.4.15",
@@ -62,5 +64,11 @@
                 "flex://defaults"
             ]
         }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^10.5",
+        "shopware/dev-tools": "^1.5",
+        "shopwarelabs/phpstan-shopware": "^0.1.9"
     }
 }

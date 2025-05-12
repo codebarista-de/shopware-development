@@ -1,0 +1,7 @@
+{
+    "search.useIgnoreFiles": false,
+    "files.exclude": {
+        "**/*.map": true,
+        "**/public/**": true
+    }
+}
