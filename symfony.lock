@@ -74,7 +74,7 @@
             "repo": "github.com/shopware/recipes",
             "branch": "main",
             "version": "6.7",
-            "ref": "b6cadcda8adee9c1c28c613b715e00740fd82231"
+            "ref": "f83be2220c8e281c489593dd3164a3b3944f8841"
         },
         "files": [
             "bin/.htaccess",
