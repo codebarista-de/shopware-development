@@ -8,6 +8,15 @@
             "ref": "d7afb8d11ee0e18f644cc77c2df9b372e89cb3a9"
         }
     },
+    "doctrine/deprecations": {
+        "version": "1.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "1.0",
+            "ref": "87424683adc81d7dc305eefec1fced883084aab9"
+        }
+    },
     "nyholm/psr7": {
         "version": "1.6",
         "recipe": {
@@ -74,7 +83,7 @@
             "repo": "github.com/shopware/recipes",
             "branch": "main",
             "version": "6.7",
-            "ref": "f83be2220c8e281c489593dd3164a3b3944f8841"
+            "ref": "3acffe6286225026bd303199afed0b9b64daa4ea"
         },
         "files": [
             "bin/.htaccess",
