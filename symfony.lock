@@ -8,6 +8,15 @@
             "ref": "d7afb8d11ee0e18f644cc77c2df9b372e89cb3a9"
         }
     },
+    "doctrine/deprecations": {
+        "version": "1.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "1.0",
+            "ref": "87424683adc81d7dc305eefec1fced883084aab9"
+        }
+    },
     "friendsofphp/php-cs-fixer": {
         "version": "3.22",
         "recipe": {
@@ -86,7 +95,7 @@
             "repo": "github.com/shopware/recipes",
             "branch": "main",
             "version": "6.6",
-            "ref": "606d7a3e58d44c4c0fa75204618a1b0b3203a3e0"
+            "ref": "d65c74773358efd9d0f41626297f17b28cd66c19"
         },
         "files": [
             "bin/.htaccess",
