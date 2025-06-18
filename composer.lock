@@ -915,16 +915,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "4.2.3",
+            "version": "4.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "33d2d7fe1269b2301640c44cf2896ea607b30e3e"
+                "reference": "b37d160498ea91a2382a2ebe825c4ea6254fc0ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/33d2d7fe1269b2301640c44cf2896ea607b30e3e",
-                "reference": "33d2d7fe1269b2301640c44cf2896ea607b30e3e",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/b37d160498ea91a2382a2ebe825c4ea6254fc0ec",
+                "reference": "b37d160498ea91a2382a2ebe825c4ea6254fc0ec",
                 "shasum": ""
             },
             "require": {
@@ -934,15 +934,15 @@
                 "psr/log": "^1|^2|^3"
             },
             "require-dev": {
-                "doctrine/coding-standard": "12.0.0",
+                "doctrine/coding-standard": "13.0.0",
                 "fig/log-test": "^1",
                 "jetbrains/phpstorm-stubs": "2023.2",
-                "phpstan/phpstan": "2.1.1",
-                "phpstan/phpstan-phpunit": "2.0.3",
+                "phpstan/phpstan": "2.1.17",
+                "phpstan/phpstan-phpunit": "2.0.6",
                 "phpstan/phpstan-strict-rules": "^2",
-                "phpunit/phpunit": "10.5.39",
-                "slevomat/coding-standard": "8.13.1",
-                "squizlabs/php_codesniffer": "3.10.2",
+                "phpunit/phpunit": "10.5.46",
+                "slevomat/coding-standard": "8.16.2",
+                "squizlabs/php_codesniffer": "3.13.1",
                 "symfony/cache": "^6.3.8|^7.0",
                 "symfony/console": "^5.4|^6.3|^7.0"
             },
@@ -1001,7 +1001,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/4.2.3"
+                "source": "https://github.com/doctrine/dbal/tree/4.2.4"
             },
             "funding": [
                 {
@@ -1017,7 +1017,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-03-07T18:29:05+00:00"
+            "time": "2025-06-15T23:15:01+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -5391,23 +5391,23 @@
         },
         {
             "name": "shopware/administration",
-            "version": "v6.7.0.0-rc5",
+            "version": "v6.7.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "4abeb8fbbca018a66a9147ef8e30e3befc2297f0"
+                "reference": "c7b7756baa617e9d56fb4d31557a4f097db8e0d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/4abeb8fbbca018a66a9147ef8e30e3befc2297f0",
-                "reference": "4abeb8fbbca018a66a9147ef8e30e3befc2297f0",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/c7b7756baa617e9d56fb4d31557a4f097db8e0d9",
+                "reference": "c7b7756baa617e9d56fb4d31557a4f097db8e0d9",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "^4.2",
                 "pentatrion/vite-bundle": "^7.0",
                 "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
-                "shopware/core": "v6.7.0.0-rc5",
+                "shopware/core": "v6.7.0.0",
                 "symfony/framework-bundle": "~7.2.0",
                 "symfony/http-foundation": "~7.2.0",
                 "symfony/mime": "~7.2.0",
@@ -5436,10 +5436,10 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://github.com/shopware/shopware/issues",
-                "source": "https://github.com/shopware/administration/tree/v6.7.0.0-rc5",
+                "source": "https://github.com/shopware/administration/tree/v6.7.0.0",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-05-28T13:25:42+00:00"
+            "time": "2025-06-17T07:48:40+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5480,16 +5480,16 @@
         },
         {
             "name": "shopware/core",
-            "version": "v6.7.0.0-rc5",
+            "version": "v6.7.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "2a82867c0bb03b9b6e15959d66d6f71d1b81e781"
+                "reference": "6a4ee12143aebee6894738e569c1892335873cfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/2a82867c0bb03b9b6e15959d66d6f71d1b81e781",
-                "reference": "2a82867c0bb03b9b6e15959d66d6f71d1b81e781",
+                "url": "https://api.github.com/repos/shopware/core/zipball/6a4ee12143aebee6894738e569c1892335873cfb",
+                "reference": "6a4ee12143aebee6894738e569c1892335873cfb",
                 "shasum": ""
             },
             "require": {
@@ -5669,23 +5669,23 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://github.com/shopware/shopware/issues",
-                "source": "https://github.com/shopware/core/tree/v6.7.0.0-rc5",
+                "source": "https://github.com/shopware/core/tree/v6.7.0.0",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-05-28T06:32:21+00:00"
+            "time": "2025-06-10T12:44:24+00:00"
         },
         {
             "name": "shopware/elasticsearch",
-            "version": "v6.7.0.0-rc5",
+            "version": "v6.7.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/elasticsearch.git",
-                "reference": "31eac45f4ae203ca5394fcf3c20f74e9f992fda2"
+                "reference": "c71f41e2764305ce7be031ed7d9c647d28c98314"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/elasticsearch/zipball/31eac45f4ae203ca5394fcf3c20f74e9f992fda2",
-                "reference": "31eac45f4ae203ca5394fcf3c20f74e9f992fda2",
+                "url": "https://api.github.com/repos/shopware/elasticsearch/zipball/c71f41e2764305ce7be031ed7d9c647d28c98314",
+                "reference": "c71f41e2764305ce7be031ed7d9c647d28c98314",
                 "shasum": ""
             },
             "require": {
@@ -5695,7 +5695,7 @@
                 "monolog/monolog": "^3.3.1",
                 "opensearch-project/opensearch-php": "^2.3.1",
                 "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
-                "shopware/core": "v6.7.0.0-rc5",
+                "shopware/core": "v6.7.0.0",
                 "shyim/opensearch-php-dsl": "^1.0.5",
                 "symfony/http-foundation": "~7.2.0",
                 "symfony/messenger": "~7.2.0"
@@ -5729,23 +5729,23 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://github.com/shopware/shopware/issues/",
-                "source": "https://github.com/shopware/elasticsearch/tree/v6.7.0.0-rc5",
+                "source": "https://github.com/shopware/elasticsearch/tree/v6.7.0.0",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-05-28T13:24:40+00:00"
+            "time": "2025-06-17T07:47:26+00:00"
         },
         {
             "name": "shopware/storefront",
-            "version": "v6.7.0.0-rc5",
+            "version": "v6.7.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "3269b843e91ec5998874fd7ac02d0d90c34d1f3f"
+                "reference": "71831d1735a2e0814addf8bfffe4f9881a608949"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/3269b843e91ec5998874fd7ac02d0d90c34d1f3f",
-                "reference": "3269b843e91ec5998874fd7ac02d0d90c34d1f3f",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/71831d1735a2e0814addf8bfffe4f9881a608949",
+                "reference": "71831d1735a2e0814addf8bfffe4f9881a608949",
                 "shasum": ""
             },
             "require": {
@@ -5754,7 +5754,7 @@
                 "meyfa/php-svg": "^0.14.0",
                 "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
                 "scssphp/scssphp": "v1.12.0",
-                "shopware/core": "v6.7.0.0-rc5",
+                "shopware/core": "v6.7.0.0",
                 "symfony/cache": "~7.2.0",
                 "symfony/cache-contracts": "~3.5.0",
                 "symfony/config": "~7.2.0",
@@ -5805,10 +5805,10 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://github.com/shopware/shopware/issues",
-                "source": "https://github.com/shopware/storefront/tree/v6.7.0.0-rc5",
+                "source": "https://github.com/shopware/storefront/tree/v6.7.0.0",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-05-28T13:25:35+00:00"
+            "time": "2025-06-17T07:48:15+00:00"
         },
         {
             "name": "shyim/opensearch-php-dsl",
