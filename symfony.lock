@@ -82,7 +82,7 @@
             "repo": "github.com/shopware/recipes",
             "branch": "main",
             "version": "6.6",
-            "ref": "33e796478eb06c75b42f5e4ac110ce3bb9415ef7"
+            "ref": "a66a5a5b0ca729c29666a4d1c151cfeedfcc61a1"
         },
         "files": [
             "bin/build-administration.sh",
@@ -95,7 +95,7 @@
             "repo": "github.com/shopware/recipes",
             "branch": "main",
             "version": "6.6",
-            "ref": "d65c74773358efd9d0f41626297f17b28cd66c19"
+            "ref": "5a2da543726008941e22987459bab30c2469d9ca"
         },
         "files": [
             "bin/.htaccess",
@@ -122,7 +122,7 @@
             "repo": "github.com/shopware/recipes",
             "branch": "main",
             "version": "6.6",
-            "ref": "a1232aee197f337e95f347c204680dd788c54fcc"
+            "ref": "fe34e39dbf21eec276589a9c8857084ea33918f9"
         },
         "files": []
     },
@@ -132,7 +132,7 @@
             "repo": "github.com/shopware/recipes",
             "branch": "main",
             "version": "6.6",
-            "ref": "ce534fb928b5983ff86b6ff5975dc90b309f353f"
+            "ref": "e85bafb3f3b54f9a1fb59feeb2a31046e19c2a82"
         },
         "files": [
             "bin/build-storefront.sh",
