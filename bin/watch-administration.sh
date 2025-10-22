@@ -18,10 +18,12 @@ eval "$curenv"
 set +o allexport
 
 export HOST=${HOST:-"localhost"}
-export ESLINT_DISABLE
-export PORT
+export VITE_HOST
+export ADMIN_PORT
 export APP_URL
-export DISABLE_ADMIN_COMPILATION_TYPECHECK=1
+export SHOPWARE_ADMIN_SKIP_SOURCEMAP_GENERATION
+export DISABLE_DEVSERVER_OPEN
+export DDEV_PRIMARY_URL
 
 if [[ -e "${PROJECT_ROOT}/vendor/shopware/platform" ]]; then
     ADMIN_ROOT="${ADMIN_ROOT:-"${PROJECT_ROOT}/vendor/shopware/platform/src/Administration"}"
@@ -56,7 +58,7 @@ if [[ $(command -v jq) ]]; then
         if [[ -f "$path/package.json" && ! -d "$path/node_modules" && $name != "administration" ]]; then
             echo "=> Installing npm dependencies for ${name}"
 
-            npm install --omit=dev --prefix "$path"
+            (cd "$path" && npm install --omit=dev)
         fi
     done
     cd "$OLDPWD" || exit
