@@ -1,8 +1,11 @@
 {
     "search.useIgnoreFiles": false,
-    "files.exclude": {
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/*.code-search": true,
         "**/*.map": true,
-        "**/public/**": true
+        "**/public/**": true,
+        "**/dist/**": true
     },
     "phpstan.singleFileMode": false,
     "phpstan.binPath": "vendor/bin/phpstan",

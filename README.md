@@ -62,6 +62,23 @@ bin/console plugin:install --activate FroshPlatformAdminer FroshDevelopmentHelpe
 bin/console plugin:install --activate FroshPlatformAdminer
 ```
 
+### Setting up the test database
+
+Integrations tests are run against the `shopware_test` database that is automatically created by the integration test fixture if it does not exist.
+If you get this error when running an integration test:
+```
+Previous error: PDOException:
+SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user 'shopware'@'%' to database 'shopware_test'
+```
+the shopware user does not have sufficient priveliges to create the test database.
+To fix this run:
+```sh
+docker exec -it database-1 bash
+mysql -u root -p
+GRANT ALL PRIVILEGES ON shopware_test.* TO 'shopware'@'%';
+FLUSH PRIVILEGES;
+```
+
 ## Run static analyzer
 
 Will run static analysis on all PHP files in `custom/plugins/` except those of shopware plugins:
