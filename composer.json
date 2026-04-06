@@ -59,10 +59,8 @@
     "extra": {
         "symfony": {
             "allow-contrib": true,
-            "endpoint": [
-                "https://raw.githubusercontent.com/shopware/recipes/flex/main/index.json",
-                "flex://defaults"
-            ]
+            "endpoint": ["https://raw.githubusercontent.com/shopware/recipes/flex/main/index.json", "flex://defaults"],
+            "docker": false
         }
     },
     "require-dev": {

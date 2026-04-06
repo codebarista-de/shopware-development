@@ -14,16 +14,16 @@
             "repo": "github.com/symfony/recipes",
             "branch": "main",
             "version": "1.0",
-            "ref": "87424683adc81d7dc305eefec1fced883084aab9"
+            "ref": "fdd756167454623e21f1d769c5b814b243782a67"
         }
     },
     "friendsofphp/php-cs-fixer": {
-        "version": "3.22",
+        "version": "3.94",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
-            "version": "3.0",
-            "ref": "be2103eb4a20942e28a6dd87736669b757132435"
+            "version": "3.39",
+            "ref": "97aaf9026490db73b86c23d49e5774bc89d2b232"
         },
         "files": [
             ".php-cs-fixer.dist.php"
@@ -95,7 +95,7 @@
             "repo": "github.com/shopware/recipes",
             "branch": "main",
             "version": "6.6",
-            "ref": "5a2da543726008941e22987459bab30c2469d9ca"
+            "ref": "b579d40fac8201d5ee91f51220ac45114a8a2b43"
         },
         "files": [
             "bin/.htaccess",
@@ -224,6 +224,15 @@
         },
         "files": []
     },
+    "symfony/property-info": {
+        "version": "7.4",
+        "recipe": {
+            "repo": "github.com/shopware/recipes",
+            "branch": "main",
+            "version": "7.3",
+            "ref": "d7afb8d11ee0e18f644cc77c2df9b372e89cb3a9"
+        }
+    },
     "symfony/routing": {
         "version": "7.1",
         "recipe": {
@@ -274,12 +283,12 @@
         }
     },
     "symfony/web-profiler-bundle": {
-        "version": "7.2",
+        "version": "7.4",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
-            "version": "6.1",
-            "ref": "8b51135b84f4266e3b4c8a6dc23c9d1e32e543b7"
+            "version": "7.3",
+            "ref": "a363460c1b0b4a4d0242f2ce1a843ca0f6ac9026"
         },
         "files": [
             "config/packages/web_profiler.yaml",
